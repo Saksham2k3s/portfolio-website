@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+.background{
+  background-color: hsla(216, 65%, 11%, 1);
+  min-height: 100vh; 
+
+}
+
+/* scroll bar styling */
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 50%;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: hsla(216, 65%, 11%, 1);
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #01ffea;
+  border-radius: 50px;
+  height: 10px;
+  width: 10px;
+}

@@ -1,0 +1,49 @@
+.aboutText{
+    text-align: justify;
+    margin-bottom: 3.5rem !important;
+   }
+  .aboutText h3{
+    font-size: 26px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: left;
+  }
+  .aboutText .highlight3{
+    font-weight: bold;
+    color: #01ffea;
+  }
+  .highlight {
+    background-color: #01ffea;
+    color: black;
+    font-weight: bold;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  .heading1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    
+  }
+  .heading2{
+    font-family: 'Prompt', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color:#01ffea ;
+  }
+
+  .thick-thin-underline {
+    position: relative;
+   
+  }
+  
+  .thick-thin-underline::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to left, transparent, #01ffea, transparent);
+    transform: translateX(-50%);
+  }
