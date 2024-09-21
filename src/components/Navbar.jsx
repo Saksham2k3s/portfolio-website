@@ -25,8 +25,6 @@ function Header() {
         >
           Saksham
         </Link>
-        
-
          {/* toggle and close button on navbar */}
         {!isMenuOpen ? (
           <button
@@ -65,15 +63,6 @@ function Header() {
           <ul className="navbar-nav ms-auto order2 navbar-options text-center">
             <li className="nav-item px-2">
               <NavLink
-                to="/"
-                className="nav-link font"
-                style={{ color: "white" }}
-              >
-                HOME
-              </NavLink>
-            </li>
-            <li className="nav-item px-2">
-              <NavLink
                 to="/about"
                 className="nav-link font"
                 style={{ color: "white" }}
@@ -98,6 +87,24 @@ function Header() {
               >
                 PROJECTS
               </Link>
+            </li>
+            <li className="nav-item px-2">
+              <Link
+                to="/experience"
+                className="nav-link font"
+                style={{ color: "white" }}
+              >
+                 EXPERIENCE
+              </Link>
+            </li>
+            <li className="nav-item px-2">
+              <NavLink
+                to="/achievements"
+                className="nav-link font"
+                style={{ color: "white" }}
+              >
+                ACHIEVEMENTS
+              </NavLink>
             </li>
             <li className="nav-item px-2">
               <Link

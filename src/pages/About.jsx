@@ -15,7 +15,7 @@ function About() {
            
            {/* About section start */}
 
-          <div className="row px-2 mt-4">
+          <div className="row px-2 mt-4 ">
             <h1 className="text-center fonts text-white mt-5 head  thick-thin-underline">
               Know About Me
             </h1>

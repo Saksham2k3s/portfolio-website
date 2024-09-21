@@ -7,11 +7,12 @@ import About from './pages/About'
 import Project from './pages/Projects'
 import Contact from './pages/Contect'
 import Skills from './pages/Skills'
+import Experience from './pages/Experience'
 
 function App() {
   return (
    <>
-   <div className='container-fluid background' >
+   <div className='container-fluid  background ' >
    <Header/>
     <Routes>
       
@@ -20,6 +21,7 @@ function App() {
       <Route path='/project' element={<Project/>} />
       <Route path='/connectwithsaksham' element={<Contact/>} />
       <Route path='/myskills' element={<Skills/>} />
+      <Route path='/experience' element={<Experience/>} />
     </Routes>
    </div>
    </>

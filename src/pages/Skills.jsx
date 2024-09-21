@@ -26,12 +26,8 @@ function Skills() {
           <h1 className="text-center h1 fonts text-white mt-5 head  thick-thin-underline">
             My Skills
           </h1>
-          <h4 className=" text-white font text-center  heading1">
-            <span className="heading2 px-2">What I'v learned</span>
-          </h4>
-
           <div className="skills-container">
-            <h4 className=" text-white font text-center  heading1">
+            <h4 className=" text-white font mt-4 text-center  heading1">
               <span className="heading2 px-2">Frontend</span>
             </h4>
             <div className="skills-box mt-3">
