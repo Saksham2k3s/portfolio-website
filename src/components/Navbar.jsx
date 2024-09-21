@@ -19,7 +19,7 @@ function Header() {
     >
       <div className="container-fluid">
         <Link
-          to="#"
+          to="/"
           style={{ fontSize: "2.5rem" }}
           className="navbar-brand text-white "
         >
@@ -96,15 +96,6 @@ function Header() {
               >
                  EXPERIENCE
               </Link>
-            </li>
-            <li className="nav-item px-2">
-              <NavLink
-                to="/achievements"
-                className="nav-link font"
-                style={{ color: "white" }}
-              >
-                ACHIEVEMENTS
-              </NavLink>
             </li>
             <li className="nav-item px-2">
               <Link
