@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.66b0f942.css",
-    "main.js": "/portfolio-website/static/js/main.1ce4b97f.js",
+    "main.css": "/portfolio-website/static/css/main.854d2737.css",
+    "main.js": "/portfolio-website/static/js/main.60c34a37.js",
     "static/js/787.4e1c7395.chunk.js": "/portfolio-website/static/js/787.4e1c7395.chunk.js",
     "static/media/firstfiddleclone.png": "/portfolio-website/static/media/firstfiddleclone.a8bfd8c8996ed0387bdc.png",
+    "static/media/netflix-clone.png": "/portfolio-website/static/media/netflix-clone.348d4caca4821023b753.png",
+    "static/media/3legant.png": "/portfolio-website/static/media/3legant.d098b08a22d3e29affd4.png",
     "static/media/foodiecave.png": "/portfolio-website/static/media/foodiecave.6e67194690819dfd361b.png",
     "static/media/todoimg.png": "/portfolio-website/static/media/todoimg.5d1178f7166442efc60b.png",
     "static/media/indNews.png": "/portfolio-website/static/media/indNews.1b15dadc149834af9951.png",
     "static/media/admissionimg.png": "/portfolio-website/static/media/admissionimg.23dff24d5b9ca0e6634b.png",
+    "static/media/html.png": "/portfolio-website/static/media/html.622c7df4ccad6f976753.png",
     "static/media/saksham portfolio.png": "/portfolio-website/static/media/saksham portfolio.3f966f7683f6c59c42b8.png",
     "static/media/LinksFinder.png": "/portfolio-website/static/media/LinksFinder.4ccc537201290dd8e91a.png",
-    "static/media/SakshamFullStackResume.pdf": "/portfolio-website/static/media/SakshamFullStackResume.0d6223cd83c6a88a26d3.pdf",
+    "static/media/SakshamShrivastavaResume.pdf": "/portfolio-website/static/media/SakshamShrivastavaResume.9b9929072dcfcc8c2ff1.pdf",
     "static/media/Sketch Book.png": "/portfolio-website/static/media/Sketch Book.7bf4b1ddb00b83f864ac.png",
     "index.html": "/portfolio-website/index.html",
-    "main.66b0f942.css.map": "/portfolio-website/static/css/main.66b0f942.css.map",
-    "main.1ce4b97f.js.map": "/portfolio-website/static/js/main.1ce4b97f.js.map",
+    "main.854d2737.css.map": "/portfolio-website/static/css/main.854d2737.css.map",
+    "main.60c34a37.js.map": "/portfolio-website/static/js/main.60c34a37.js.map",
     "787.4e1c7395.chunk.js.map": "/portfolio-website/static/js/787.4e1c7395.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66b0f942.css",
-    "static/js/main.1ce4b97f.js"
+    "static/css/main.854d2737.css",
+    "static/js/main.60c34a37.js"
   ]
 }
