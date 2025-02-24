@@ -1,0 +1,42 @@
+.thick-thin-underline {
+    position: relative;
+   
+  }
+  
+  .thick-thin-underline::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to left, transparent, #01ffea, transparent);
+    transform: translateX(-50%);
+  }
+
+  .skills-container{
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+  }
+
+  .skills-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skill-img{
+    height: 50px;
+    width: 50px;
+  
+  }
+
+  @media(max-width : 768px){
+    .skill-img{
+      height: 50px;
+      width: 50px;
+      margin-top: 30px;
+    }
+  }

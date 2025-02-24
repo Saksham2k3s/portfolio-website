@@ -1,0 +1,48 @@
+.sec-1 h5{
+    color: #01ffea;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .sec-1 h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold; 
+  }
+  .sec-1 p{
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    /* padding-right: 218px; */
+  }
+  .mov{
+    display: none;
+  
+  }
+  @media(max-width : 768px){
+    .mov{
+      display: block;
+    }
+    .des{
+      display: none;
+    }
+  }
+  .i{
+    background-color:hsla(216, 65%, 11%, 1) ;
+    color:#01ffea ;
+    border: transparent;
+  }
+  .fonts{
+    font-family: 'Josefin Sans', sans-serif;
+    
+  }
+  
+  TypeWriter{
+    color: #01ffea;
+  }
+  
+  .highlight {
+    background-color: #01ffea;
+    color: black;
+    font-weight: bold;
+    padding: 2px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }

@@ -1,0 +1,146 @@
+.thick-thin-underline {
+    position: relative;
+   
+  }
+  
+  .thick-thin-underline::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to left, transparent, #01ffea, transparent);
+    transform: translateX(-50%);
+  }
+
+  .card{
+    background-color: hsla(216, 65%, 11%, 1);
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 2px 4px 6px #01ffea ;
+    border:  3px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    
+    /* box-shadow: -1px 2px 4px #01ffea; */
+  
+    transition: 2s;
+  }
+  .card:hover{
+   
+   box-shadow: 0px 0px 112px -41px rgb(255, 25, 195), 0 -10px 26px -5px rgb(0, 220, 255),0px 0px 112px -41px rgb(122, 255, 0) , 0 -10px 26px -5px rgb(0, 254, 207);
+   color: #01ffea;
+    transition: 1s;
+  }
+  .card img{
+    height: 150px;
+    border-radius: 10px;
+    
+  }
+  .mainimg{
+    border: 3px solid #01ffea;
+  }
+  .card  i{
+    font-size: 35px;
+    color: black;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    transition: 2s;
+  }
+  .card:hover i{
+    color: #01ffea;
+    transition: 2s;
+  }
+  
+  .card h5{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .card p{
+    text-align: justify;
+    margin-top: 15px;
+  }
+  .card .tech-img img{
+    height: 60px;
+    width:  60px;
+    margin-top: 10px;
+  }
+  .btn1{
+    background-color: #01ffea;
+    color: hsla(216, 65%, 11%, 1);
+    border-radius: 8px;
+    font-family:'Ubuntu', sans-serif ;
+  }
+  .btn1:hover{
+    background-color: #01ffea;
+    color: hsla(216, 65%, 11%, 1);
+    border-radius: 8px;
+    font-family:'Ubuntu', sans-serif ;
+  }
+  .btn2{
+    border: 3px solid #01ffea;
+    background-color: hsla(216, 65%, 11%, 1) ;
+    color: #01ffea;
+    border-radius: 8px;
+    font-family:'Ubuntu', sans-serif ;
+  }
+  .btn2:hover{
+    border: 3px solid #01ffea;
+    background-color: hsla(216, 65%, 11%, 1) ;
+    color: #01ffea;
+    border-radius: 8px;
+    font-family:'Ubuntu', sans-serif ;
+  }
+  
+  .project-card-container{
+    border: 1px solid #01ffea;
+    border-radius: 10px;
+    align-items: center;
+    
+  }
+
+  .project-img{
+    padding: 10px;
+    align-items: center;
+    vertical-align: middle;
+    border-right: 1px solid #01ffea;
+    
+  }
+
+  .project-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .card-para{
+    font-size: 20px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif ;
+    text-align: justify;
+  }
+
+  .technologies-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .technologies-container img{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .technologies-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  
